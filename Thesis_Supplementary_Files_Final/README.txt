@@ -9,7 +9,7 @@ Main workflow
 - make_extratrees_12_sample_predictions.py: Extra Trees predictions for the 12 experimental Ni-Mn-Ti candidates at 900 degrees C for 4 h using the sol-gel method.
 
 Data
-- drx dataset.csv: cleaned literature dataset (173 records; 115 unique formulae).
+- drx dataset.csv: source literature CSV (182 rows), including 173 complete synthesis records and 9 Atmosphere-only metadata rows. Featurisation.ipynb removes the 9 incomplete rows before modelling, leaving 173 records and 115 unique formulae.
 - data_splits/split_manifest.json: exact formula membership of the original train/validation/test split.
 - data_splits/drx_train.csv: training split (128 records; 80 unique formulae).
 - data_splits/drx_val.csv: validation split (31 records; 23 unique formulae).
