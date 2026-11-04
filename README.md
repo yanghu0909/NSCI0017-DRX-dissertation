@@ -8,7 +8,7 @@ This repository documents a literature-data and machine-learning workflow for sc
 
 ## Dataset
 
-The final curated dataset contains **173 literature records** covering **115 unique composition formulae**.
+The final curated dataset contains **173 literature records** covering **115 unique composition formulae**. The source CSV contains 9 rows with only `Atmosphere` metadata and no composition or synthesis outcome; these are removed before modelling. The raw `Atmosphere` column is retained as literature metadata but excluded from the final model input.
 
 | Split | Records | Unique formulae |
 |---|---:|---:|
