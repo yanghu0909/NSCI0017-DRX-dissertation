@@ -86,6 +86,8 @@ NSCI0017-DRX-dissertation/
     └── predictions_for_12_experimental_samples_extra_trees_with_conditions.csv
 ```
 
+The saved result files can be inspected without rerunning the notebooks. In particular, `model_comparison_classic_models.csv`, `best_model_summary.json` and `predictions_for_12_experimental_samples_extra_trees_with_conditions.csv` provide the classifier comparison, selected-model summary and candidate predictions, respectively.
+
 ## Reproducing the workflow
 
 Use Python 3 and install the dependencies:
